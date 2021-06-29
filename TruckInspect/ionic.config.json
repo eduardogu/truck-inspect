@@ -1,0 +1,7 @@
+{
+  "name": "TruckInspect",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

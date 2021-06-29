@@ -1,0 +1,30 @@
+.inspection-list{
+   padding: 0.5em;
+   display: flex;
+   flex-direction: column;
+   .inspection{
+      margin-bottom: 0.5em;
+   }
+}
+.index-panel{
+   display: flex;
+   flex-direction: row;
+}
+.medium{
+   font-size: 4em;
+}
+.content{
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   .content-title{
+      font-size: 1.25em;
+      margin-top: 0;
+   }
+   .content-subtitle{
+      font-size: .75em;
+      padding: 0;
+      margin: 0;
+   }
+}

@@ -1,0 +1,92 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+.panel{
+   background-color: #fff;
+	border-radius: 2px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+.urgent{
+   background-color: #CA3C25;
+   color: white;
+}
+.urgent:active{
+   background-color: #e68475;
+   color: white;
+}
+.pending{
+   background-color: #F3A712;
+   color: white;
+}
+.pending:active{
+   background-color: #F7C664;
+   color: white;
+}
+.completed{
+   background-color: #7FB069;
+   color: white;
+}
+.completed:active{
+   background-color: #AFCEA1;
+   color: white;
+}
+.secondary{
+   background-color: #eeeeee;
+   //background-color: #20A4F3;
+   color: black;
+}
+.secondary:active{
+   background-color: #c2c2c2;
+   color: black;
+}
+.primary{
+   background-color: #F75C03;
+   color: #99c087;
+}
+.toolbar-icon{
+   text-align: right;
+   font-size: 2em;
+}
+.app-title{
+   margin-top: auto; 
+   margin-left: auto; 
+   text-align: left !important; 
+   padding-inline-start: 1em;
+}
+ion-content{
+   --background: #DAEAC2;
+}
+ion-toolbar{
+   --background: #F75C03;
+   --color: white;
+}
+ion-tab-button:hover{
+   color: #F75c03 !important;
+}
+ion-tab-button[aria-selected=true]{
+   color: #F75c03;
+}

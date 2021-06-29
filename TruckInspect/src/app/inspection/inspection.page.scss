@@ -1,0 +1,28 @@
+.large{
+   font-size: 5em;
+}
+.panel{
+   width: 100%;
+}
+.index-panel{
+   display: flex;
+   flex-direction: row;
+}
+.content{
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   .content-title{
+      font-size: 1.5em;
+      margin-top: 0;
+   }
+   .content-subtitle{
+      font-size: 1em;
+      padding: 0;
+      margin: 0;
+   }
+}
+.full{
+   height: 100%;
+}
